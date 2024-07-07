@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="istenen methodlar calistima">
+    <test name="C1 test01">
+        <classes>
+            <class name="tests.day17_TestNGFramwork.C02_Priority">
+                <methods>
+                    <include name="wisequarterTesti"></include>
+                </methods>
+            </class>
+            <class name="tests.day18_testNGFramworkHazirlamaa.C03_ValidInvalid">
+                <methods>
+                    <exclude name="validPasswordTest02"></exclude>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
+    

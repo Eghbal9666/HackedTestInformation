@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="farkli hierarsilerden test calistima">
+    <test name="01 test">
+        <packages>
+            <package name="tests.day17_TestNGFramwork"></package>
+        </packages>
+        <classes>
+            <class name="tests.day18_TestNGFramworkHazirlama.C02_PozitifLoginTesti"></class>
+            <class name="tests.day18_TestNGFramworkHazirlama.C04_AlisverisSepetiTesti"></class>
+            <class name="tests.day19_TestNGFramwork.C01_DataProvider">
+                <methods>
+                    <include name="invalidPassword02"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

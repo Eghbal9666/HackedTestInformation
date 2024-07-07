@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Gorev 2:
+            day17 ve day 18 deki tum
+            classlari toplu olarak calistirin
+-->
+<suite name="istenen packagelari calistirma">
+    <test name="01 Testi">
+        <packages>
+            <package name="tests.day17_TestNGFramwork"></package>
+            <package name="tests.day18_testNGFramworkHazirlamaa"></package>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="crossBrowserIleCalistirma" parallel="tests" thread-count="2">
+    <test name="Chrome ile calisacak classlar">
+        <parameter name="kullanilacakBrowser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.day20_softAssertion_xmlDosyalari.C01_AramaTesti"></class>
+            <class name="tests.day20_softAssertion_xmlDosyalari.C02_PositiveLoginTesti"></class>
+            <class name="tests.day20_softAssertion_xmlDosyalari.C03_urunSepetiTesti"></class>
+        </classes>
+    </test>
+    <test name="FireFox ile calisacak classlar">
+        <parameter name="kullanilacakBrowser" value="firefox"></parameter>
+        <classes>
+            <class name="tests.day20_softAssertion_xmlDosyalari.C01_AramaTesti"></class>
+            <class name="tests.day20_softAssertion_xmlDosyalari.C02_PositiveLoginTesti"></class>
+            <class name="tests.day20_softAssertion_xmlDosyalari.C03_urunSepetiTesti"></class>
+        </classes>
+    </test>
+</suite>
